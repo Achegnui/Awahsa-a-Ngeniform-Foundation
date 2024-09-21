@@ -133,12 +133,7 @@ const Home = () => {
             {" "}
             <h1 className="pl-4">Bambili</h1>
             <ul className="list-disc list-inside pl-2">
-              <li className="pl-6">BMF Nursery and Primary School</li>
-              <li className="pl-6">PNVA Nursery and Primary School</li>
-              <li className="pl-6">
-                Cameroon College of Arts, Science and Technology
-              </li>
-              <li className="pl-6">University of Bamenda</li>
+              
               <li className="pl-6">Bambili Health Center</li>
               <li className="pl-6">University of Bamenda Health Center</li>
               <li className="pl-6">Bambili Lake</li>
