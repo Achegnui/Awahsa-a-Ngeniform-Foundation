@@ -23,7 +23,7 @@ const Home = () => {
       </h1>
 
       <div className=" flex flex-col gap-y-4 justify-center items-center text-xl text-center px-[10%] mb-10 mx-auto  my-auto ">
-        <p className=" text-white">
+        <p className=" text-black">
           Supporting excellence, leadership, and resilience in youth
           livelihoods, scholarship, and community development, The Awahsa’a
           Ngeniform Foundation is dedicated to empowering at-risk and
