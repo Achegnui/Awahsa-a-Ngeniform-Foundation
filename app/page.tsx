@@ -151,14 +151,14 @@ const Home = () => {
               <li className="pl-6">PC CCAST Complex</li>
             </ul>
             <h1 className="pl-4">Online</h1>
-            <ul>
-              <li>
+            <ul className="list-disc list-inside pl-2">
+              <li className="pl-6">
                 <Link href="https://www.edx.org/">EdX</Link>
               </li>
-              <li>
+              <li className="pl-6">
                 <Link href="https://chat.openai.com/">ChatGPT</Link>
               </li>
-              <li>
+              <li className="pl-6">
                 <Link href="https://www.khanacademy.org/">Khan Academy</Link>
               </li>
             </ul>
