@@ -16,7 +16,7 @@ const Home = () => {
     <div
       className={`${ebGaramond.className} h-full md:pt-[7%] pt-[40%]  bg-[#FFFD0] pb-10`}
     >
-      <h1 className="text-black text-center text-7xl font-bold mb-4">
+      <h1 className="text-black text-center text-8xl font-bold mb-4 mt-10">
         {" "}
         Awahsa'a Ngeniform Foundation (AN)
       </h1>
@@ -57,7 +57,7 @@ const Home = () => {
 
       <div className="grid grid-cols-5   text-center mx-10 rounded-md bg-[#d2691e]">
         <div className=" flex flex-col   ">
-          <div className="text-white font-bold text-2xl">
+          <div className="text-white font-bold text-xl">
             Community Development
           </div>
           <div className="text-start bg-[#ec914f]">
@@ -87,9 +87,7 @@ const Home = () => {
           </div>
         </div>
         <div className=" flex flex-col ">
-          <div className="text-white font-bold text-2xl">
-            Skills+Livelihoods
-          </div>
+          <div className="text-white font-bold text-xl">Skills+Livelihoods</div>
           <div className="text-start text-white bg-[#ec914f]">
             {" "}
             <h1 className="">Bambili</h1>
@@ -106,7 +104,7 @@ const Home = () => {
           </div>
         </div>
         <div className="flex flex-col  ">
-          <div className="text-white font-bold text-2xl">Culture</div>
+          <div className="text-white font-bold text-xl">Culture</div>
           <div className="text-start text-white bg-[#ec914f]">
             {" "}
             <div>
@@ -127,14 +125,14 @@ const Home = () => {
           </div>
         </div>
         <div className=" flex flex-col   ">
-          <div className="text-white font-bold text-2xl">Research</div>
+          <div className="text-white font-bold text-xl">Capacity-Building</div>
           <div className="text-start bg-[#ec914f] text-white">
             {" "}
             <h1>Bambili</h1>
           </div>
         </div>
         <div className="flex flex-col   ">
-          <div className="text-white font-bold text-2xl">Resources</div>
+          <div className="text-white font-bold text-xl">Resources</div>
           <div className="text-start bg-[#ec914f] text-white">
             {" "}
             <h1 className="pl-4">Bambili</h1>
@@ -161,6 +159,11 @@ const Home = () => {
               <li className="pl-6">
                 <Link href="https://www.khanacademy.org/">Khan Academy</Link>
               </li>
+            </ul>
+            <h1 className="pl-4">Technical Resources</h1>
+            <ul className="list-disc list-inside pl-2">
+              <li className="pl-6">Experts</li>
+              <li className="pl-6">Research</li>
             </ul>
           </div>
         </div>
