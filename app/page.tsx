@@ -18,7 +18,7 @@ const Home = () => {
     >
       <h1 className="text-black text-center text-8xl font-bold mb-4 mt-10">
         {" "}
-        Awahsa'a Ngeniform Foundation (AN)
+        The Awahsa'a Ngeniform Foundation (AN)
       </h1>
       <h1
         className={`px-[10%] text-center text-3xl md:text-4xl mb-8 font-bold text-black `}
@@ -101,6 +101,18 @@ const Home = () => {
               <li className="pl-4">Electrification incl. Solar</li>
               <li className="pl-4">Tailoring</li>
             </ul>
+            <h1 className="pl-2">Online Learning</h1>
+            <ul className="list-disc list-inside pl-2">
+              <li className="pl-4">
+                <Link href="https://www.edx.org/">EdX</Link>
+              </li>
+              <li className="pl-4">
+                <Link href="https://chat.openai.com/">ChatGPT</Link>
+              </li>
+              <li className="pl-4">
+                <Link href="https://www.khanacademy.org/">Khan Academy</Link>
+              </li>
+            </ul>
           </div>
         </div>
         <div className="flex flex-col  ">
@@ -121,6 +133,27 @@ const Home = () => {
                 <li className="pl-8">Anthem</li>
                 <li className="pl-8">Calendar</li>
               </ul>
+              <ul className="list-disc list-inside ">
+                <li className="pl-4">Food & Drinks</li>
+                <li className="pl-8">Achu & Yellow Soup</li>
+                <li className="pl-8">Achu & Na'a (Garden Egg)</li>
+                <li className="pl-8"> Achu & Black Soup</li>
+                <li className="pl-8">Achu & Egusi Soup</li>
+                <li className="pl-8">Palmwine</li>
+              </ul>
+              <ul className="list-disc list-inside ">
+                <li className="pl-4">Tourism</li>
+                <li className="pl-8">Bambili Palace</li>
+                <li className="pl-8">Quarters</li>
+                <li className="pl-8"> Lake Bambili</li>
+                <li className="pl-8"> Ngo'fana</li>
+                <li className="pl-8">Rivers & Waterfalls</li>
+              </ul>
+              <ul className="list-disc list-inside ">
+                <li className="pl-4">Music, Dance & Crafts</li>
+                <li className="pl-4">Traditional Practices</li>
+                <li className="pl-4">Events</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -128,7 +161,14 @@ const Home = () => {
           <div className="text-white font-bold text-xl">Capacity-Building</div>
           <div className="text-start bg-[#ec914f] text-white">
             {" "}
-            <h1>Bambili</h1>
+            <h1 className="pl-4">Bambili</h1>
+            <ul className="list-disc list-inside pl-2">
+              <li className="pl-6">
+                <Link href="https://forms.gle/SJ2KSig1sYrvvSCH8">
+                  Growing Mbeligi Together Inaugural - 21st Sept 2024
+                </Link>
+              </li>
+            </ul>
           </div>
         </div>
         <div className="flex flex-col   ">
@@ -137,28 +177,14 @@ const Home = () => {
             {" "}
             <h1 className="pl-4">Bambili</h1>
             <ul className="list-disc list-inside pl-2">
+              <li className="pl-4">Social Services</li>
               <li className="pl-6">Bambili Health Center</li>
               <li className="pl-6">University of Bamenda Health Center</li>
-              <li className="pl-6">Bambili Lake</li>
-              <li className="pl-6">Ngo'Fana</li>
-              <li className="pl-6">Bambili Palace</li>
               <li className="pl-6">
                 <Link href="#">Our Lady Of Fatima Parish Bambili</Link>
               </li>
               <li className="pl-6">St Francis Quasi Parish Ntewshi</li>
               <li className="pl-6">PC CCAST Complex</li>
-            </ul>
-            <h1 className="pl-4">Online</h1>
-            <ul className="list-disc list-inside pl-2">
-              <li className="pl-6">
-                <Link href="https://www.edx.org/">EdX</Link>
-              </li>
-              <li className="pl-6">
-                <Link href="https://chat.openai.com/">ChatGPT</Link>
-              </li>
-              <li className="pl-6">
-                <Link href="https://www.khanacademy.org/">Khan Academy</Link>
-              </li>
             </ul>
             <h1 className="pl-4">Technical Resources</h1>
             <ul className="list-disc list-inside pl-2">
