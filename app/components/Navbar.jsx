@@ -22,7 +22,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className="fixed w-full  h-24 shadow-xl z-50 bg-black opacity-70 "
+      className="fixed w-full  h-24 shadow-xl z-50 bg-black  "
       style={{
         background: `url(${BambiliWear.src}) lightgray 50% / cover no-repeat`,
       }}
@@ -30,20 +30,20 @@ const Navbar = () => {
       <div className="flex justify-between items-center h-full w-full px-4 2xl:px-16 ">
         <div className="font-bold ">
           <Link href="/" className="flex gap-3">
-            <Image src={Logo.src} width={100} height={100} />
-            <p className="text-white text-2xl">
+            {/* <Image src={Logo.src} width={100} height={100} /> */}
+            {/* <p className="text-white text-2xl">
               Awahsa'a Ngeniform Foundation (AN)
-            </p>
+            </p> */}
           </Link>
         </div>
         <div className="hidden sm:flex">
-          <ul className="hidden sm:flex">
+          {/* <ul className="hidden sm:flex">
             <Link href="/about">
               <li className="ml-10 uppercase hover:border-b text-xl text-green-500">
                 About
               </li>
             </Link>
-          </ul>
+          </ul> */}
         </div>
         <div
           onClick={handleNav}

@@ -9,16 +9,20 @@ import Link from "next/link";
 
 const Home = () => {
   return (
-    <div className=" h-full md:pt-[7%] pt-[40%] bg-black pb-10">
+    <div className=" h-full md:pt-[7%] pt-[40%]  bg-yellow-400 pb-10">
+      <h1 className="text-white text-center text-7xl font-bold mb-4">
+        {" "}
+        Awahsa'a Ngeniform Foundation (AN)
+      </h1>
       <h1
-        className={`px-[10%] text-center text-3xl md:text-6xl mb-12 font-bold text-white `}
+        className={`px-[10%] text-center text-3xl md:text-4xl mb-8 font-bold text-white `}
       >
         <span className="text-[#6b8e23]">Empowering</span> At-Risk Youth and{" "}
         <span className="text-[#6b8e23]">Fostering</span> Community Development
         in Conflict-Affected Regions
       </h1>
 
-      <div className=" flex flex-col gap-y-4 justify-center items-center text-center px-[10%] mb-10 mx-auto  my-auto ">
+      <div className=" flex flex-col gap-y-4 justify-center items-center text-xl text-center px-[10%] mb-10 mx-auto  my-auto ">
         <p className=" text-white">
           Supporting excellence, leadership, and resilience in youth
           livelihoods, scholarship, and community development, The Awahsa’a
@@ -52,24 +56,27 @@ const Home = () => {
           </div>
           <div className="text-start bg-[#ec914f]">
             {" "}
-            <h1 className="text-white"> {">"}Bambili</h1>
+            <h1 className="text-white pl-2">Bambili</h1>
             <div className="pl-4 text-white">
-              <h1 className=""> {">"}MBECUDA</h1>
-              <p className="pl-6"> {">"}MBECUDA Bambili</p>
-              <p className="pl-6"> {">"}MBECUDA Buea</p>
-              <p className="pl-6"> {">"}MBECUDA Limbe</p>
-              <p className="pl-6"> {">"}MBECUDA Douala</p>
-              <p className="pl-6"> {">"}MBECUDA Yaounde</p>
-              <p className="pl-6"> {">"}MBECUDA USA</p>
-              <p className="pl-6"> {">"}MBECUDA Canada</p>
+              <ul className="list-disc list-inside">
+                <li className="pl-0">MBECUDA</li>
+                <li className="pl-6">MBECUDA Bambili</li>
+                <li className="pl-6">MBECUDA Buea</li>
+                <li className="pl-6">MBECUDA Limbe</li>
+                <li className="pl-6">MBECUDA Douala</li>
+                <li className="pl-6">MBECUDA Yaounde</li>
+                <li className="pl-6">MBECUDA USA</li>
+                <li className="pl-6">MBECUDA Canada</li>
+              </ul>
             </div>
             <div className="pl-4 text-white">
-              <h1>{">"}ORGANIZATIONS</h1>
-              <p className="pl-6"> {">"}Awahsa’a Ngeniform Foundation</p>
-              <p className="pl-6"> {">"}Mbeligi Facebook</p>
-              <p className="pl-6">
-                <Link href="#"> {">"}Our Lady Of Fatima Parish Bambili</Link>
-              </p>
+              <ul className="list-disc list-inside">
+                <li>ORGANIZATIONS</li>
+                <li className="pl-6"> Awahsa’a Ngeniform Foundation</li>
+                <Link href=" https://www.facebook.com/share/g/Qu3m4i8mPcjca7fu/?mibextid=K35XfP ">
+                  <li className="pl-6">Mbeligi Facebook</li>
+                </Link>
+              </ul>
             </div>
           </div>
         </div>
@@ -79,9 +86,17 @@ const Home = () => {
           </div>
           <div className="text-start text-white bg-[#ec914f]">
             {" "}
-            <h1 className=""> {">"}Bambili</h1>
-            <p className="pl-4"> {">"}Farming </p>
-            <p className="pl-4"> {">"}Business</p>
+            <h1 className="">Bambili</h1>
+            <ul className="list-disc list-inside ">
+              <li className="pl-4">Secondary Education</li>
+              <li className="pl-4">Higher Education</li>
+              <li className="pl-4">Agriculture</li>
+              <li className="pl-4">Business and Trades</li>
+              <li className="pl-4">Carpentry</li>
+              <li className="pl-4">Welding</li>
+              <li className="pl-4">Electrification incl. Solar</li>
+              <li className="pl-4">Tailoring</li>
+            </ul>
           </div>
         </div>
         <div className="flex flex-col  ">
@@ -89,17 +104,19 @@ const Home = () => {
           <div className="text-start text-white bg-[#ec914f]">
             {" "}
             <div>
-              <h1 className="text-white"> {">"}Bambili</h1>
-              <p className="pl-4"> {">"} Language</p>
-              <p className="pl-6">
-                <Link href=" https://www.youtube.com/@prof_agwandi">
-                  {" "}
-                  {">"}Language Matters
-                </Link>
-              </p>
-              <p className="pl-6"> {">"} Dictionary</p>
-              <p className="pl-6"> {">"} Anthem</p>
-              <p className="pl-6"> {">"} Calendar</p>
+              <h1 className="text-white">Bambili</h1>
+              <ul className="list-disc list-inside ">
+                <li className="pl-4">Language</li>
+                <li className="pl-8">
+                  <Link href=" https://www.youtube.com/@prof_agwandi">
+                    {" "}
+                    Language Matters
+                  </Link>
+                </li>
+                <li className="pl-8">Dictionary</li>
+                <li className="pl-8">Anthem</li>
+                <li className="pl-8">Calendar</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -107,18 +124,32 @@ const Home = () => {
           <div className="text-white font-bold text-2xl">Research</div>
           <div className="text-start bg-[#ec914f] text-white">
             {" "}
-            <h1> {">"}Bambili</h1>
+            <h1>Bambili</h1>
           </div>
         </div>
         <div className="flex flex-col   ">
           <div className="text-white font-bold text-2xl">Resources</div>
           <div className="text-start bg-[#ec914f] text-white">
             {" "}
-            <h1 className="pl-4"> {">"}Bambili</h1>
-            <h2 className="pl-5">{">"}Tourism</h2>
-            <p className="pl-6"> {">"}Bambili Lake</p>
-            <p className="pl-6"> {">"}Ngo'Fana</p>
-            <p className="pl-6"> {">"}Bambili Palace</p>
+            <h1 className="pl-4">Bambili</h1>
+            <ul className="list-disc list-inside pl-2">
+              <li className="pl-6">BMF Nursery and Primary School</li>
+              <li className="pl-6">PNVA Nursery and Primary School</li>
+              <li className="pl-6">
+                Cameroon College of Arts, Science and Technology
+              </li>
+              <li className="pl-6">University of Bamenda</li>
+              <li className="pl-6">Bambili Health Center</li>
+              <li className="pl-6">University of Bamenda Health Center</li>
+              <li className="pl-6">Bambili Lake</li>
+              <li className="pl-6">Ngo'Fana</li>
+              <li className="pl-6">Bambili Palace</li>
+              <li className="pl-6">
+                <Link href="#">Our Lady Of Fatima Parish Bambili</Link>
+              </li>
+              <li className="pl-6">St Francis Quasi Parish Ntewshi</li>
+              <li className="pl-6">PC CCAST Complex</li>
+            </ul>
           </div>
         </div>
       </div>
