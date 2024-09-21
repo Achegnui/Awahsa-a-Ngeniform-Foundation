@@ -1,16 +1,22 @@
 import React from "react";
 import BambiliWear from "./public/assets/logo.jpg";
 import Link from "next/link";
+import { EB_Garamond } from "@next/font/google";
 // import tw from "twin.macro"; // Import twin.macro for TailwindCSS styling
 
 // const Table = tw.table`w-full border-collapse`;
 // const Th = tw.th`bg-orange-500 p-2 text-white font-bold`;
 // const Td = tw.td`bg-orange-300 p-2`;
-
+const ebGaramond = EB_Garamond({
+  subsets: ["latin"], // Specify the subsets you need
+  weight: "400", // You can specify weight or styles if needed
+});
 const Home = () => {
   return (
-    <div className=" h-full md:pt-[7%] pt-[40%]  bg-[#FFFD0] pb-10">
-      <h1 className="text-white text-center text-7xl font-bold mb-4">
+    <div
+      className={`${ebGaramond.className} h-full md:pt-[7%] pt-[40%]  bg-[#FFFD0] pb-10`}
+    >
+      <h1 className="text-black text-center text-7xl font-bold mb-4">
         {" "}
         Awahsa'a Ngeniform Foundation (AN)
       </h1>
@@ -36,7 +42,7 @@ const Home = () => {
           conflict-affected regions.
         </p>
         <div className="flex justify-center items-center gap-x-8">
-          <button className="px-4 py-2 bg-white rounded-full text-[#d2691e] text-lg font-bold ">
+          <button className="px-4 py-2 bg-black rounded-full text-[#d2691e] text-lg font-bold ">
             Learn More
           </button>
           <button className="px-4 py-2 bg-black rounded-full text-[#d2691e] text-lg font-bold border">
@@ -45,7 +51,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="text-8xl text-white font-bold text-center mb-5">
+      <div className="text-8xl text-black font-bold text-center mb-5">
         OUR <span className="text-[#6b8e23]">PILLARS</span>{" "}
       </div>
 
@@ -133,7 +139,6 @@ const Home = () => {
             {" "}
             <h1 className="pl-4">Bambili</h1>
             <ul className="list-disc list-inside pl-2">
-              
               <li className="pl-6">Bambili Health Center</li>
               <li className="pl-6">University of Bamenda Health Center</li>
               <li className="pl-6">Bambili Lake</li>
@@ -144,6 +149,18 @@ const Home = () => {
               </li>
               <li className="pl-6">St Francis Quasi Parish Ntewshi</li>
               <li className="pl-6">PC CCAST Complex</li>
+            </ul>
+            <h1 className="pl-4">Online</h1>
+            <ul>
+              <li>
+                <Link href="https://www.edx.org/">EdX</Link>
+              </li>
+              <li>
+                <Link href="https://chat.openai.com/">ChatGPT</Link>
+              </li>
+              <li>
+                <Link href="https://www.khanacademy.org/">Khan Academy</Link>
+              </li>
             </ul>
           </div>
         </div>
