@@ -1,5 +1,4 @@
-import { html } from "framer-motion/client";
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar";
 import "./globals.css";
 
 export default function RootLayout({

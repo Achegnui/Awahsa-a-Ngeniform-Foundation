@@ -43,14 +43,6 @@ const Navbar = () => {
                 About
               </li>
             </Link>
-            <Link href="/mbecuda">
-              <li className="ml-10 uppercase hover:border-b text-xl text-white"></li>
-            </Link>
-            <Link href="/community">
-              <li className="ml-10 uppercase hover:border-b text-xl text-white">
-                Community Initiatives
-              </li>
-            </Link>
           </ul>
         </div>
         <div
@@ -82,20 +74,10 @@ const Navbar = () => {
                 ABOUT
               </li>
             </Link>
-            <Link href="/mbecuda">
-              <li onClick={() => setNav(false)} className="py-4 cursor-pointer">
-                MBECUDA
-              </li>
-            </Link>
-            <Link href="/">
-              <li onClick={() => setNav(false)} className="py-4 cursor-pointer">
-                Community Initiatives
-              </li>
-            </Link>
           </ul>
         </div>
 
-        <div className="flex flex-row justify-around pt-10 items-center bg-red-500">
+        <div className="flex flex-row justify-around pt-10 items-center ">
           <AiOutlineInstagram size={30} className="cursor-pointer" />
           <AiOutlineFacebook size={30} className="cursor-pointer" />
           <AiOutlineTwitter size={30} className="cursor-pointer" />
