@@ -9,6 +9,9 @@ import {
   AiOutlineTwitter,
 } from "react-icons/ai";
 import { useState } from "react";
+import Image from "next/image";
+import BambiliWear from "../public/assets/logo.jpg";
+import Logo from "../public/assets/logoN.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -18,23 +21,33 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed w-full  h-24 shadow-xl bg-white z-50 ">
-      <div className="flex justify-between items-center h-full w-full px-4 2xl:px-16">
-        <div className="font-bold text-4xl bg-red-500">
-          <Link href="/">Akwo's Foundation</Link>
+    <nav
+      className="fixed w-full  h-24 shadow-xl z-50 bg-black opacity-70 "
+      style={{
+        background: `url(${BambiliWear.src}) lightgray 50% / cover no-repeat`,
+      }}
+    >
+      <div className="flex justify-between items-center h-full w-full px-4 2xl:px-16 ">
+        <div className="font-bold ">
+          <Link href="/" className="flex gap-3">
+            <Image src={Logo.src} width={100} height={100} />
+            <p className="text-white text-2xl">
+              Awahsa'a Ngeniform Foundation (AN)
+            </p>
+          </Link>
         </div>
         <div className="hidden sm:flex">
           <ul className="hidden sm:flex">
             <Link href="/about">
-              <li className="ml-10 uppercase hover:border-b text-xl">About</li>
-            </Link>
-            <Link href="/mbecuda">
-              <li className="ml-10 uppercase hover:border-b text-xl">
-                MBECUDA
+              <li className="ml-10 uppercase hover:border-b text-xl text-green-500">
+                About
               </li>
             </Link>
+            <Link href="/mbecuda">
+              <li className="ml-10 uppercase hover:border-b text-xl text-white"></li>
+            </Link>
             <Link href="/community">
-              <li className="ml-10 uppercase hover:border-b text-xl">
+              <li className="ml-10 uppercase hover:border-b text-xl text-white">
                 Community Initiatives
               </li>
             </Link>
@@ -60,26 +73,29 @@ const Navbar = () => {
           </div>
         </div>
         <div className="flex-col py-10 items-center justify-center">
-          <Link href="/about">
-            <li
-              onClick={() => setNav(false)}
-              className="text-white py-4 cursor-pointer"
-            >
-              ABOUT
-            </li>
-          </Link>
-          <Link href="/">
-            <li onClick={() => setNav(false)} className="py-4 cursor-pointer">
-              MBECUDA
-            </li>
-          </Link>
-          <Link href="/">
-            <li onClick={() => setNav(false)} className="py-4 cursor-pointer">
-              Community Initiatives
-            </li>
-          </Link>
+          <ul className="flex-col">
+            <Link href="/about">
+              <li
+                onClick={() => setNav(false)}
+                className=" py-4 cursor-pointer"
+              >
+                ABOUT
+              </li>
+            </Link>
+            <Link href="/mbecuda">
+              <li onClick={() => setNav(false)} className="py-4 cursor-pointer">
+                MBECUDA
+              </li>
+            </Link>
+            <Link href="/">
+              <li onClick={() => setNav(false)} className="py-4 cursor-pointer">
+                Community Initiatives
+              </li>
+            </Link>
+          </ul>
         </div>
-        <div className="flex flex-row justify-around pt-10 items-center">
+
+        <div className="flex flex-row justify-around pt-10 items-center bg-red-500">
           <AiOutlineInstagram size={30} className="cursor-pointer" />
           <AiOutlineFacebook size={30} className="cursor-pointer" />
           <AiOutlineTwitter size={30} className="cursor-pointer" />

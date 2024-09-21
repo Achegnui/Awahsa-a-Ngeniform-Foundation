@@ -1,5 +1,5 @@
 import React from "react";
-import BambiliWear from "../public/assets/bambiliwear.jpg";
+import BambiliWear from "../public/assets/logo.jpg";
 
 const About = () => {
   return (
