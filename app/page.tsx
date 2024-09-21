@@ -15,7 +15,7 @@ const Home = () => {
         Awahsa'a Ngeniform Foundation (AN)
       </h1>
       <h1
-        className={`px-[10%] text-center text-3xl md:text-4xl mb-8 font-bold text-white `}
+        className={`px-[10%] text-center text-3xl md:text-4xl mb-8 font-bold text-black `}
       >
         <span className="text-[#6b8e23]">Empowering</span> At-Risk Youth and{" "}
         <span className="text-[#6b8e23]">Fostering</span> Community Development
