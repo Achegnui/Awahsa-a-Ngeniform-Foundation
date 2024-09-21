@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const Home = () => {
   return (
-    <div className=" h-full md:pt-[7%] pt-[40%]  bg-yellow-400 pb-10">
+    <div className=" h-full md:pt-[7%] pt-[40%]  bg-[#FFFD0] pb-10">
       <h1 className="text-white text-center text-7xl font-bold mb-4">
         {" "}
         Awahsa'a Ngeniform Foundation (AN)
